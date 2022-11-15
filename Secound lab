@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+
+    String name="ramaf mohammed";
+    System.out.println(name.length());
+        System.out.println(name);
+        String name2=name.toUpperCase();
+        System.out.println(name.toUpperCase());
+//        System.out.println(name.trim());
+        System.out.println(name.toLowerCase());
+        System.out.println(name2);
+
+        Scanner s = new Scanner(System.in);
+        Scanner s1=new Scanner((System.in));
+        System.out.println("please enter your name");
+        String name=s.nextLine();
+        System.out.println("please enter your age");
+        int age=s.nextInt();
+        s.nextLine();
+        System.out.println("please enter your gender");
+        String sex = s.nextLine();
+
+        if(age>=18 && sex.equals("female")) {
+            System.out.println("Succes");
+            System.out.println("sorry");
+        }
+        else{
+            System.out.println("sorry");
+
+            if()
+        }
+        int score = s.nextInt();
+    else if (score >= 90 && score < 100) ;
+        System.out.println("A");
+     else if (score > 80 && score < 90) ;
+        System.out.println("B");
+       else  if (score > 70 && score < 80) ;
+        System.out.println("c");
+
+        System.out.println("PLEASE ENTER 1 TO ENQUIRE YOU BALANCE");
+        System.out.println("PLEASE ENTER 2 EQUIRE YOU USER NAME AND PASSWORD");
+        System.out.println("PLEASE ENTER 3 TO CONTACT YOU CUSTOMER SERVICE");
+
+        int num=s2.nextint();
+        case 1: System.out.println("your balance is 100");
+        break;
+
+        case 2: System.out.println("your user name ****your password");
+        break;
+
+        case 3: System.out.println("calling");
+        break;
+
+        default: System.out.println("please select number from the list ")
+
+
+
+        }}
+
